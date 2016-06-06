@@ -1,5 +1,5 @@
 {
-  "name": "winston-rollbar",
+  "name": "@emmerge/winston-rollbar",
   "description": "A Rollbar transport for winston",
   "version": "0.2.0",
   "author": "Juan Pablo Garcia Dalolla <juanpablogarcia@gmail.com> (http://jpgarcia.com.ar)",
@@ -16,11 +16,11 @@
     "rollbar"
   ],
   "dependencies": {
-    "rollbar": "0.5.6"
+    "rollbar": "0.6.2"
   },
   "devDependencies": {
     "vows": "0.8.1",
-    "winston": "0.6.2"
+    "winston": "2.2.0"
   },
   "main": "./lib/winston-rollbar",
   "scripts": {
